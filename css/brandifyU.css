@@ -6,6 +6,13 @@ body{
     height: 100%;
     /*background-image: url(../images/mask8.png);*/
     background-color: #241b3d;
+    padding: 0px !important;
+}
+.container-fluid{
+    padding: 0px !important;
+}
+.clear-padding{
+    padding: 0px !important;
 }
 .menuBar{
     width: 100px;
@@ -13,6 +20,8 @@ body{
     height: 100px;
     position: absolute !important;
     z-index: 100;
+    height: 100vh;
+    background-color: #0b0226;
 }
 .menuBarItems{
     position:absolute !important; 
@@ -37,7 +46,6 @@ body{
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
-    transform: rotateZ(45deg);
     margin-left: -3px;
     margin-top: -4px;
 }
@@ -130,14 +138,13 @@ body{
 }
 .menuIconContainer{
     position: absolute;
-    bottom: 20px;
     text-align: center;
     cursor: pointer;
     width: 39px;
     height: 39px;
     padding-top: 10px;
-    background-color: #f5902d;
-    transform: rotateZ(-45deg);
+    top: 50%;
+    left: 36%;
 }
 .menuSlide1{
     -ms-transform: rotate(20deg); 
@@ -235,3 +242,52 @@ body{
 .color-pink{
     background-color: #e81e52
 }
+
+
+
+.menuHolder{
+    position: absolute;
+    width: 25%;
+    height: 100vh;
+    background-color: #543383;
+    display:none;
+}
+.menuHolder .navbar-horizontal{
+    padding: 100px 0px 0px 150px;
+}
+.navbar-horizontal li {
+    list-style: none;
+}
+.navbar-horizontal li a{
+    color:#fff;
+    font-size: 30px;
+}
+#services{
+    width: 100%;
+    height: 100vh;
+    background-color: #00769e;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.design{
+    /*background-image: url(../images/1.jpg);*/
+    width: 100% !important;
+    height: 99.9vh;
+    background-color: #48abbe;
+    float: left;
+}
+.advertising{
+    width: 100% !important;
+    height: 99.9vh;
+    background-color:  #f3724a;
+    float: left;
+}
+.digitalmarketing{
+    width: 100% !important;
+    height: 99.9vh;
+    background-color:  #e0ab4b;
+    float: left;
+}
+      
+
